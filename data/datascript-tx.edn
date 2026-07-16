@@ -1,0 +1,23 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "mys.act-777-2016-companies-act"
+           :title "Companies Act 2016"
+           :jurisdiction "MYS"
+           :kind :law
+           :law-number "Act 777"
+           :url "https://lom.agc.gov.my/act-detail.php?act=777"
+           :url-provenance :official-lom-agc-gov-my
+           :enacted-date "2016-08-31"
+           :retrieved-at "2026-07-17"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "mys.act-709-2010-personal-data-protection-act"
+           :title "Personal Data Protection Act 2010"
+           :jurisdiction "MYS"
+           :kind :law
+           :law-number "Act 709"
+           :url "https://www.investmalaysia.gov.my/media/3x4fsqum/personal-data-protection-act-2010.pdf"
+           :url-provenance :laws-of-malaysia-official-reprint-mirror
+           :enacted-date "2013-11-15"
+           :retrieved-at "2026-07-17"
+           :topic [:data-protection :privacy]}]
