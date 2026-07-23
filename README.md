@@ -1,9 +1,14 @@
 # cloud-itonami-iso3166-mys
 
-**MYS**: Malaysia.
+**`:implemented`** for **MYS**. Flagship `mof-certificate-expired`, tax `ssm-unverified`.
 
-- MyProcurement / ePerolehan
-- SSM
+- ePerolehan / MyProcurement (Ministry of Finance Malaysia, MOF Certificate)
+- SSM (Suruhanjaya Syarikat Malaysia / Companies Commission of Malaysia)
+- LHDN (Lembaga Hasil Dalam Negeri Malaysia / Inland Revenue Board)
+
+```
+clojure -M:dev:test
+```
 
 AGPL-3.0-or-later.
 
