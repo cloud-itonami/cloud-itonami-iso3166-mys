@@ -7,7 +7,7 @@
 - LHDN (Lembaga Hasil Dalam Negeri Malaysia / Inland Revenue Board)
 
 ```
-clojure -M:dev:test
+kbb -M:dev:test
 ```
 
 AGPL-3.0-or-later.
