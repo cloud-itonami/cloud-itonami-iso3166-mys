@@ -57,7 +57,7 @@
   window has already lapsed by the declared filing date is a HARD hold
   that cannot be overridden by human approval alone — it must be
   renewed via ePerolehan/MyProcurement first (the flagship check; see
-  `src/marketentry/governor.cljc`)
+  `src/marketentry/governor.cljk`)
 - this service does **not** provide legal or tax advice; characterization
   and filing on the client's behalf beyond checklist/draft assistance
   routes to Malaysian-licensed counsel or a registered agent

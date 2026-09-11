@@ -9,7 +9,7 @@
                         EAV store.
 
   Both implement the same protocol and pass the same contract
-  (test/marketentry/store_contract_test.clj).
+  (test/marketentry/store_contract_test.cljk).
 
   `DatomicStore` uses `langchain-store.core` for its EDN-blob codec and
   event-log read/append helpers (ADR-2607141600) -- the shared seam,
