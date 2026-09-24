@@ -35,7 +35,7 @@
   `marketentry.operation`'s `:filing/submit`, always human-gated -- see
   README Actuation)."
   (:require [kotoba.lang.text :as str]
-            #?(:clj  [clojure.edn :as edn]
+            #?(:clj  [kotoba.lang.edn :as edn]
                :cljs [cljs.reader :as edn])))
 
 (defn- unsigned-certificate
